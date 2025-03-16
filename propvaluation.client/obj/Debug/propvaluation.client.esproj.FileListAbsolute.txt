@@ -1,0 +1,1 @@
+C:\git\PropValuation\propvaluation.client\obj\Debug\propvaluation.client.esproj.CoreCompileInputs.cache

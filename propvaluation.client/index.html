@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+        // Function to set the data-bs-theme attribute based on the preferred color scheme
+        function setTheme() {
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            document.body.setAttribute("data-bs-theme", prefersDarkScheme ? "dark" : "light");
+        }
+
+        // Set the theme on initial load
+        setTheme();
+
+        // Listen for changes in the preferred color scheme
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+            const newColorScheme = e.matches ? "dark" : "light";
+            document.body.setAttribute("data-bs-theme", newColorScheme);
+        });
+    </script>
+</body>
+</html>

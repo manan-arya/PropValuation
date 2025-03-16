@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "wiLOB1GTwsYoSlAM6IBep8MoDDF1Fa5jYdaYjx9oaOY=",
+  "Source": "PropValuation.Server",
+  "BasePath": "_content/PropValuation.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\git\\PropValuation\\propvaluation.client\\propvaluation.client.esproj",
+      "Version": 2,
+      "Source": "propvaluation.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

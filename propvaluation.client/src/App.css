@@ -1,0 +1,35 @@
+﻿/* File: propvaluation.client/src/App.css */
+#root {
+    margin: 0;
+    width: 100%;
+    /*padding: 2rem;*/
+    text-align: center;
+    --bs-body-bg: var(--body-background-color);
+}
+
+.navbar-custom {
+    background-color: var(--navbar-background-color);
+    color: var(--navbar-text-color);
+    --bs-body-bg: var(--body-background-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: var(--navbar-text-color);
+}
+
+.navbar-custom .nav-link:hover {
+    color: var(--navbar-text-color);
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#basic-navbar-nav {
+    justify-content: flex-end
+}
