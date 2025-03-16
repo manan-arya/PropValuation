@@ -46,7 +46,7 @@ function App() {
         <div>
             <AppNavbar />
             <div className="banner" style={{ position: 'relative', textAlign: 'center', color: 'white' }}>
-                <img src="../public/Banner.webp" alt="Banner" style={{ width: '100%', maxHeight: '100rem' }} />
+                <img src="/Banner.webp" alt="Banner" style={{ width: '100%', maxHeight: '100rem' }} />
                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
                     <h1>Welcome to Our Application</h1>
                     <p>Your success is our priority</p>
